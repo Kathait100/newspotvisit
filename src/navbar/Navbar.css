@@ -1,0 +1,54 @@
+ #Navbar {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding-left: 55px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0px;
+}
+
+.navigation {
+  margin-left: 270px;
+  background-color: #ffffff;
+}
+
+#Navbar nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#Navbar nav ul li {
+  margin-right: 50px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #656565;
+}
+h2 #buddy {
+  /* color: #e36039; */
+  font-weight: 700;
+  font-size: 25px;
+}
+h2 #cart {
+  font-size: 27px;
+  color: #656565;
+} 
+li .link {
+  text-decoration: none;
+  color: #656565;
+}
+
+.active{
+  color: #656565;
+}
+
+li.active{
+  text-decoration:#e36039;
+}
